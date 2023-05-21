@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #6AC4D9, #70D0E6);
+}
+
+main {
+    background-color: white; /*criou uma caixa de fundo branco ao redor do texto*/
+    border-radius: 10px;/*arredondou as bordas da caixa*/
+    box-shadow: 5px 5px 15px #407581b8;/*cria sombra no padão(o primeiro valor cria sombra para a direita, o segundo cria para baixo, o terceiro espalha)*/
+    width: 600px;/*largura da caixa em relação a tela*/
+    padding: 15px;/*é o espaço interno entre o texto e a borda(acozoamento)*/
+    margin: auto;/*margin auto centraliza o texto independendte do tamanho da tela*/
+}
+
+h1 {
+    color: #2C5159;
+    text-align: center;
+    text-shadow: 1px 1px 2px #213c42aa;
+}
+
+h2 {
+    color:#4B8B99;
+    text-shadow: 1px 1px 1px #2c525bde;
+}
+
+p {
+    text-align: justify;/*organiza o texto*/
+}
+
+footer {
+    background-image: linear-gradient(to right, #6AC4D9, #70D0E6);
+    text-align: center;
+    border-radius: 6px;
+    margin: auto;
+    padding: 5px;
+    /*box-shadow: 5px 5px 15px #244249b7;*/
+}

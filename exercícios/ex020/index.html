@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: grey;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {/*aqui eu n precisei chamar a class pois todas as divis estão configaradas para a cor aqua*/
+            background-color: aqua;
+        }
+
+        .segunda:hover {
+            background-color: yellow;
+        }
+
+        .terceira:hover {
+            background-color: rgb(74, 222, 25);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="primeira">01</div>
+    <div class="segunda">02</div>
+    <div class="terceira">03</div>
+</body>
+</html>
