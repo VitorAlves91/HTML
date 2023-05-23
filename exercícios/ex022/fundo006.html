@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo</title>
     <style>
         body {
-            height: 97.5vh;
+            /*
+            height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover;/*cobrir*/
+            background-size: cover; cobrir
+            background-attachment: fixed;
+
+            Shorthand  - background   (o background-size n está funcionando na shorthand)
+            color > image > position > repeat > [size] > attachment
+        */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
@@ -21,14 +29,25 @@
             border-radius: 10px;
             margin: auto;
             padding: 10px;
-            width: 400px;
+            max-width: 400px;
+            text-align: justify;
+            text-indent: 20px;
+        }
 
+        h1 {
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.264);
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae error voluptatem hic, ut doloremque pariatur mollitia inventore blanditiis vero maxime explicabo consequuntur, ipsa impedit quisquam? Ducimus nulla dignissimos ipsa necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos harum, aspernatur reiciendis commodi quae nobis eveniet id? Cupiditate nostrum id odit a iste numquam ipsa quo temporibus, facilis possimus harum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus laborum autem vitae dolores necessitatibus quos quae eaque. Praesentium cum illum blanditiis atque adipisci ipsum sit et possimus soluta molestiae!Lorem.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae error voluptatem hic, ut doloremque pariatur mollitia inventore blanditiis vero maxime explicabo consequuntur, ipsa impedit quisquam? Ducimus nulla dignissimos ipsa necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos harum, aspernatur reiciendis commodi quae nobis eveniet id? Cupiditate nostrum id odit a iste numquam ipsa quo temporibus, facilis possimus harum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus laborum autem vitae dolores necessitatibus quos quae eaque. Praesentium cum illum blanditiis atque adipisci ipsum sit et possimus soluta molestiae!Lorem.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae error voluptatem hic, ut doloremque pariatur mollitia inventore blanditiis vero maxime explicabo consequuntur, ipsa impedit quisquam? Ducimus nulla dignissimos ipsa necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos harum, aspernatur reiciendis commodi quae nobis eveniet id? Cupiditate nostrum id odit a iste numquam ipsa quo temporibus, facilis possimus harum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus laborum autem vitae dolores necessitatibus quos quae eaque. Praesentium cum illum blanditiis atque adipisci ipsum sit et possimus soluta molestiae!Lorem.
+            </p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae error voluptatem hic, ut doloremque pariatur mollitia inventore blanditiis vero maxime explicabo consequuntur, ipsa impedit quisquam? Ducimus nulla dignissimos ipsa necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos harum, aspernatur reiciendis commodi quae nobis eveniet id? Cupiditate nostrum id odit a iste numquam ipsa quo temporibus, facilis possimus harum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatibus laborum autem vitae dolores necessitatibus quos quae eaque. Praesentium cum illum blanditiis atque adipisci ipsum sit et possimus soluta molestiae!Lorem.
             </p>
     </main>
