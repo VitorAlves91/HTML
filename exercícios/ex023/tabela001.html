@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: blueviolet;
+            padding: 20px;
+        }
+
+        table {
+            background-color: aqua;
+            width: 400px;
+            border: 2px solid rgb(7, 7, 7, 0.792);
+            border-collapse: collapse;
+            text-align: center
+        }
+
+        h1 {
+            padding-left: 60px;
+        }
+
+        h2 {
+            background-color: aqua;
+            width: 396px;
+            text-align: center;
+            border: 2px solid rgba(7, 7, 7, 0.792);
+            margin: 0px;
+        }
+
+        td {
+            border: 1px solid rgba(20, 20, 21, 0.675);
+            
+        }
+
+        .celula {
+            background-color: rgb(153, 255, 0);
+        }
+
+        h3 {
+            margin: 0px;
+            width: 134px;
+            border: 2px solid black;
+        }
+
+        #baixo {
+            background-color: lightgrey;
+        }
+
+        .total {
+            width: 131px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+        <table>
+            <h2>tabela</h2>
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td class="celula">C2</td>
+            </tr>
+            <tr>
+                <td class="celula">A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </table>
+        <table>
+            <tr id="baixo">
+                <td class="total">total</td>
+                <td>A3 + C2</td>
+            </tr>
+        </table>
+</body>
+</html>
