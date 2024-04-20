@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <h2>Fale dobre você</h2>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"> <label for="isxmas"> Masculino</label><br>
+            <input type="radio" name="sexo" id="isxfem"> <label for="isxfem"> Feminino</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut"> Futebol</label><br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas"> Basquete</label><br>
+            <input type="checkbox" name="esjiu" id="iesjiu"> <label for="iesjiu"> Jiu-jitsu</label><br>
+            <input type="checkbox" name="esmma" id="iesmma"> <label for="iesmma"> MMA</label><br>
+            <input type="checkbox" name="esmus" id="iesmus"> <label for="iesmus"> Musculação</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Filmes Favoritos</legend>
+            <input type="checkbox" name="esaça" id="iesaça"> <label for="iesaça"> Ação</label><br>
+            <input type="checkbox" name="ester" id="iester"> <label for="iester"> Terror</label><br>
+            <input type="checkbox" name="escom" id="iescom"> <label for="iescom"> Comédia</label><br>
+            <input type="checkbox" name="esrom" id="iesrom"> <label for="iesrom"> Romance</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gênero musical</legend>
+            <input type="checkbox" name="esspa" id="iesspa"> <label for="iesspa"> Samba/Pagode</label><br>
+            <input type="checkbox" name="esrhh" id="iesrhh"> <label for="iesrhh"> Rap/Hip-hop</label><br>
+            <input type="checkbox" name="eslgo" id="ieslgo"> <label for="ieslgo"> Louvor/Gospel</label><br>
+            <input type="checkbox" name="esroc" id="iesroc"> <label for="iesroc"> Rock</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
